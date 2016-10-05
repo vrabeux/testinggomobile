@@ -1,7 +1,0 @@
-framework module "Test" {
-    header "GoTest.h"
-    header "GoUniverse.h"
-    header "Test.h"
-
-    export *
-}
