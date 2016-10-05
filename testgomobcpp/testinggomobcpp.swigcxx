@@ -1,0 +1,8 @@
+%module testinggomobcpp
+
+%include "std_string.i"
+%include "std_vector.i"
+
+%inline %{
+    extern std::string hello(std::string s);
+%}
